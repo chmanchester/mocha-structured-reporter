@@ -1,0 +1,34 @@
+{
+  "name": "mocha-structured-reporter",
+  "version": "0.0.0",
+  "author": "Chris Manchester <cmanchester@mozilla.org>",
+  "description": "Mocha reporter for dumping json logs to the console.",
+  "license": "MIT",
+
+  "peerDependencies": {
+    "mocha": "1.x"
+  },
+
+  "devDependencies": {
+    "mocha": "1.18.x",
+    "sinon": "1.7.3"
+  },
+
+  "keywords": [
+    "mocha",
+    "mozilla",
+    "reporter",
+    "tbpl",
+    "tinderbox",
+    "tinderboxpushlog"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chmanchester/mocha-structured-reporter.git"
+  },
+
+  "scripts": {
+    "test": "make"
+  }
+}
